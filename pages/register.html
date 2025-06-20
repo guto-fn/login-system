@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar usuário</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f3f3f3;
+            padding: 50px;
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="./../php/register.php" method="post">
+        <h2>Registro de usuário</h2>
+
+        <input type="text" name="name" placeholder="Digite seu nome" required>
+
+        <input type="email" name="email" placeholder="Digite seu melhor email" required>
+
+        <input type="password" name="password" placeholder="Digite sua senha" required>
+
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+
+</html>
