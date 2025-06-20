@@ -29,7 +29,7 @@ cd login-php-puro
 docker-compose up -d
 ```
 
-2. Acesse o pgAdmin no navegador (normalmente em http://localhost:8080):]
+2. Acesse o pgAdmin no navegador (normalmente em http://localhost:8080)
 
 Crie o banco de dados login_system_db e execute:
 
